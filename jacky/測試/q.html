@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>jacky</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link href="" rel="stylesheet">
+    <link rel=stylesheet type="text/css" href="/Volumes/QW/我的/jacky/jacky.css">
+</head>
+<script src="/Volumes/QW/我的/jacky/jacky.js"></script>
+<script type="text/javascript">
+    $(function() {
+        $('.img').on('click', function() {
+            var src = $(this).attr('src');
+            $('.imgPreview img').attr('src', src);
+            $('.imgPreview').show()
+        });
+        $('.imgPreview').on('click', function() {
+
+
+            $('.imgPreview').hide()
+        });
+    })
+</script>
+
+<body onselectstart="return false">
+    <div id="container">
+        <div class="container">
+            <center>
+                <div class="aaa"><img src="https://zxasqwedf.github.io/1/IMG_5703.JPG" class="round_icon" alt=""></div>
+            </center>
+            <center><img id="image" src="https://zxasqwedf.github.io/3/IMG_5930.JPG" width="800" height="200"></center>
+
+            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="搜索..." class="bar">
+            <ul id="myUL">
+                <li>
+                    <div>
+                        <h4>要死了，我想上學🎒</h4>
+                        <img src="IMG_5934.JPG" width="150" height="200" class="a">
+                        <p>2022/6/19 9:46:23</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h4>某波居然请喝饮料!!!!!!!!!!</h4>
+                        <img src="https://zxasqwedf.github.io/1/IMG_5863.jpg" width="150" height="200" class="a">
+                        <p>2022/5/28 2:18:56</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h4>500元??</h4>
+                        <img src="https://zxasqwedf.github.io/1/IMG_5218.JPG" width="150" height="200" class="a"><img src="https://zxasqwedf.github.io/1/IMG_5216 Small.jpeg" width="150" height="200" class="a"><img src="https://zxasqwedf.github.io/1/IMG_5217.JPG"
+                            width="150" height="200" class="a">
+                        <p>2022/1/23 12:05:15</p>
+                    </div>
+                </li>
+            </ul>
+            <div class="navigation">
+                <ul>
+                    <li class="list active">
+                        <a href="https://zxasqwedf.github.io/3/jacky.html">
+                            <span class="icon"><ion-icon name="home-outline"class="zz"></ion-icon></span><span class="text">主頁</span></a>
+                    </li>
+                    <li class="list">
+                        <a href="https://zxasqwedf.github.io/3/jacky3.html"><span class="icon"><ion-icon name="search-outline" class="z"></ion-icon></span><span class="text">搜尋</span></a>
+                    </li>
+                    <li class="list">
+                        <a href="https://zxasqwedf.github.io/3/jacky2.html"><span class="icon"><ion-icon name="at-outline"class="z"></ion-icon></span><span class="text">聯絡</span></a>
+                    </li>
+                    <li class="list">
+                        <a href="https://zxasqwedf.github.io/3/jacky4.html"><span class="icon"><ion-icon name="home-outline"class="z"></ion-icon></span><span class="text">我的</span></a>
+                    </li>
+                    <div class="indicator"></div>
+                </ul>
+            </div>
+            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+            <p>測試V 1.2.2.5</p>
+            <center>
+                <footerclass="footer">以上內容禁止轉發、p圖、下載、复制、截圖或截屏,如有發現可能会有刑事責任</footer>
+            </center>
+        </div>
+        <script>
+            var arr = new Array()
+            arr[0] = "https://zxasqwedf.github.io/3/IMG_5930.JPG";
+            arr[1] = "https://zxasqwedf.github.io/3/IMG_5928.PNG";
+            arr[2] = "https://zxasqwedf.github.io/3/IMG_5929.JPG";
+            var i = 0;
+
+            function image() {
+
+                var image = document.getElementById("image");
+                image.src = arr[i];
+                i++;
+                if (i > 2) {
+                    i = 0
+                };
+            };
+            setInterval(function() {
+
+                image();
+            }, 1000);
+        </script>
+        <script language="Javascript">
+            document.oncontextmenu = new Function("event.returnValue=false");
+            document.onselectstart = new Function("event.returnValue=false");
+        </script>
+        <script>
+            ! function() {
+                function n(n, e, t) {
+                    return n.getAttribute(e) || t
+                }
+
+                function e(n) {
+                    return document.getElementsByTagName(n)
+                }
+
+                function t() {
+                    var t = e("script"),
+                        o = t.length,
+                        i = t[o - 1];
+                    return {
+                        l: o,
+                        z: n(i, "zIndex", -1),
+                        o: n(i, "opacity", .5),
+                        c: n(i, "color", "0,0,0"),
+                        n: n(i, "count", 99)
+                    }
+                }
+
+                function o() {
+                    a = m.width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth, c = m.height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight
+                }
+
+                function i() {
+                    r.clearRect(0, 0, a, c);
+                    var n, e, t, o, m, l;
+                    s.forEach(function(i, x) {
+                        for (i.x += i.xa, i.y += i.ya, i.xa *= i.x > a || i.x < 0 ? -1 : 1, i.ya *= i.y > c || i.y < 0 ? -1 : 1, r.fillRect(i.x - .5, i.y - .5, 1, 1), e = x + 1; e < u.length; e++) n = u[e], null !== n.x && null !== n.y && (o = i.x - n.x, m = i.y - n.y, l = o * o + m * m, l < n.max && (n === y && l >= n.max / 2 && (i.x -= .03 * o, i.y -= .03 * m), t = (n.max - l) / n.max, r.beginPath(), r.lineWidth = t / 2, r.strokeStyle = "rgba(" + d.c + "," + (t + .2) + ")", r.moveTo(i.x, i.y), r.lineTo(n.x, n.y), r.stroke()))
+                    }), x(i)
+                }
+                var a, c, u, m = document.createElement("canvas"),
+                    d = t(),
+                    l = "c_n" + d.l,
+                    r = m.getContext("2d"),
+                    x = window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || window.oRequestAnimationFrame || window.msRequestAnimationFrame || function(n) {
+                        window.setTimeout(n, 1e3 / 45)
+                    },
+                    w = Math.random,
+                    y = {
+                        x: null,
+                        y: null,
+                        max: 2e4
+                    };
+                m.id = l, m.style.cssText = "position:fixed;top:0;left:0;z-index:" + d.z + ";opacity:" + d.o, e("body")[0].appendChild(m), o(), window.onresize = o, window.onmousemove = function(n) {
+                    n = n || window.event, y.x = n.clientX, y.y = n.clientY
+                }, window.onmouseout = function() {
+                    y.x = null, y.y = null
+                };
+                for (var s = [], f = 0; d.n > f; f++) {
+                    var h = w() * a,
+                        g = w() * c,
+                        v = 2 * w() - 1,
+                        p = 2 * w() - 1;
+                    s.push({
+                        x: h,
+                        y: g,
+                        xa: v,
+                        ya: p,
+                        max: 6e3
+                    })
+                }
+                u = s.concat([y]), setTimeout(function() {
+                    i()
+                }, 100)
+            }();
+        </script>
+        <script>
+            //这里ele是元素，data是对象，用来设置属性，end是回调函数，用来进行延迟运动
+            function move(ele, data, end) {
+                clearInterval(ele.t);
+                ele.t = setInterval(() => {
+                    // 1.计时器开启之后，设定状态为关闭计时器
+                    var onoff = true;
+                    for (var i in data) {
+                        var iNow = parseInt(getStyle(ele, i));
+                        var speed = (data[i] - iNow) / 7;
+                        speed = speed < 0 ? Math.floor(speed) : Math.ceil(speed);
+                        // 必须所有属性都到目标才能清计时器
+                        // 每次只能拿到一个属性
+                        // 只能判断一个属性是否到目标
+                        // 如果有一个属性到目标了，一定会清除计时器么？不一定
+                        // 如果有一个属性没到目标，一定不清除计时器！！！
+
+                        if (data[i] != iNow) {
+                            // 3.但是在设定状态之后，关闭计时器之前，判断是否有属性没到目标，只要有一个属性没到目标，就把状态改成不关闭计时器
+                            onoff = false;
+                        }
+                        ele.style[i] = iNow + speed + "px";
+                    }
+                    // 2.根据状态决定关闭计时器
+                    if (onoff) {
+                        clearInterval(ele.t);
+                        // if(end){
+                        //     end();
+                        // }
+                        end && end(); //有一个为false就没有执行的必要。没有end这个回调函数，就不执行；有就执行。
+                    }
+                }, 30);
+            }
+            //获取非行内样式元素属性兼容
+            function getStyle(ele, attr) {
+                if (getComputedStyle) {
+                    return getComputedStyle(ele, false)[attr]; //其他浏览器，只能获取不能设置
+                } else {
+                    return ele.currentStyle[attr]; //IE，只能获取不能设置
+                }
+            }
+        </script>
+        <script>
+            var ocont = document.querySelector("#container");
+            //点击外框，new个主题烟花
+            ocont.onclick = function(eve) {
+
+                    var e = eve || window.event;
+                    new Fire({
+
+                        cont: ocont,
+                        x: e.clientX - this.offsetLeft - 5,
+                        y: e.clientY - this.offsetTop - 5
+                    });
+                }
+                //主题烟花的构造函数
+            function Fire(options) {
+
+                this.cont = options.cont;
+                this.x = options.x;
+                this.y = options.y;
+                this.init();
+            }
+            //用来创建主题烟花，放在外框中，给其设置class和初始left
+            Fire.prototype.init = function() {
+
+                    this.f = document.createElement("div");
+                    this.f.className = "fire";
+                    this.cont.appendChild(this.f);
+                    this.f.style.background = randomColor();
+                    this.f.style.left = this.x + "px";
+                    this.move();
+                }
+                //让主题烟花从外框底部到鼠标点击的位置
+            Fire.prototype.move = function() {
+
+                //大烟花从先到达鼠标的位置然后，消失，生成无数个各个方向飞的小烟花
+                move(this.f, {
+                    top: this.y
+                }, () => {
+                    //这里箭头函数可以代替回调函数,让其this指向他的外部
+                    this.f.remove();
+                    this.smallFire();
+                })
+            }
+
+            //把s变成变量,因为move里回调函数里面的箭头函数没办法每次拿到s的值，所以把var改成let，让move外面的匿名函数的{}变成块级作用域，方便将来查找s。
+            //想象把move用作用域包起来，不让箭头函数到最后再执行,可以获取到s每次变化的值。
+            Fire.prototype.smallFire = function() {
+                //定义创建小烟花的功能
+                var num = random(10, 20); //小烟花的个数
+                var r = random(100, 200) //小烟花的半径
+                for (var i = 0; i < num; i++) {
+
+                    //问题1说明：循环中在创建小烟花，如果小烟花的元素保存到实例身上，那么一个属性只能保存一个元素，等待将来的元素时，只能删除最后一个
+                    //问题1解决办法：不保存在实例身上，单独保存成变量。
+                    //问题2说明保存成变量后，由于move里面有定时器，属于异步范畴，在for循环之后执行，重复覆盖，将来只能拿到最后一个
+                    //问题2解决方式：
+                    //1.利用作用域的嵌套(let块级作用域,匿名函数作用域),保存这个变量，方便将来查找;
+                    //2.利用bind将这个变量强行传参，传给this，通过将来的this找到每个小烟花。
+                    let s = document.createElement("div"); //构造小烟花
+                    s.className = "small-fire";
+                    s.style.left = this.x + "px"; //以点击位置为中心
+                    s.style.top = this.y + "px";
+                    s.style.background = randomColor();
+                    this.cont.appendChild(s);
+                    // s.setAttribute("index",i);
+                    var target = {
+
+                        x: parseInt(Math.sin(Math.PI / 180 * (360 / num * i)) * r) + this.x, //360/num是每个小烟花之间的角度，在用i把它们遍历成一个圆
+                        y: parseInt(Math.cos(Math.PI / 180 * (360 / num * i)) * r) + this.y
+                    }
+
+                    move(s, {
+                        //move函数里面有计时器,在循环之后执行
+                        left: target.x,
+                        top: target.y
+                    }, () => {
+
+                        s.remove(); //延迟执行的函数里不能拿到for循环里的计数器也就是i,因为for循环立刻执行完，而move函数里的计时器最后执行，只消失一个小火焰,所以要用let，把for循环里面的花括号作为作用域，
+                    })
+                }
+            }
+
+            function random(a, b) {
+
+                return Math.round(Math.random() * (a - b) + b)
+            }
+
+            function randomColor() {
+
+                return `rgb(${
+                   random(0,255)},${
+                   random(0,255)},${
+                   random(0,255)})`;
+            }
+        </script>
+</body>
+
+</html>
